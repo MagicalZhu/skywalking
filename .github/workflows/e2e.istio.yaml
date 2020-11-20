@@ -28,7 +28,7 @@ on:
 env:
   SKIP_TEST: true
   ES_VERSION: es7
-  ISTIO_VERSION: 1.7.1
+  ISTIO_VERSION: 1.8.1
   TAG: ${{ github.sha }}
   SCRIPTS_DIR: test/e2e-mesh/e2e-istio/scripts
   SW_OAP_BASE_IMAGE: openjdk:11-jdk
